@@ -495,25 +495,24 @@ img.icon-large {
   letter-spacing: .3em;
 }
 
-#skill .rate:before,
-#skill .rate:after {
-  line-height: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  height: 20px;
-  content: "★★★★★";
+#skill .rate:before, #skill .rate:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
 }
+#skill .rate:after {
+    color: #808080;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 
 #skill .rate:before {
   color: #ddd;
-}
-
-#skill .rate:after {
-  overflow: hidden;
-  white-space: nowrap;
-  color: #f181b4;
 }
 
 #skill .rate1:after {
