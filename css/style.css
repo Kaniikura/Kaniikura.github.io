@@ -78,6 +78,7 @@ ul.tech li img {
     margin-bottom: 1rem;
     background-color: transparent;
     text-align: center;
+    table-layout: fixed;
 }
 
 .table thead h2{
